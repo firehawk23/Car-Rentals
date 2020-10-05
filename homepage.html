@@ -1,0 +1,35 @@
+<html>
+
+    <head>
+            <link type="text/css" rel="stylesheet" href="css/homepage.css">
+            
+    </head>
+
+    <body>
+            <div class="bg-image"></div>
+
+            <div style="position: absolute;top:5%;width:100%;height:100%;"> 
+        <div class="top">
+            <p class="welcome">Welcome To</p>
+            <p class="name">driveRent</p>
+        </div>
+        <div class="image">
+                <img src="https://cdn4.iconfinder.com/data/icons/real-estate-44/64/1-34-512.png">
+        </div>
+        
+            <div class="buttons">
+                    <button type="button" onclick="signup()" class=" button signup">Sign-up</button>
+                    <button type="button" onclick="login()" class="button login">login</button>
+            </div>
+        </div>
+    </body>
+    <script>
+            function signup(){
+                location.replace("signup.php");
+            }
+            function login(){
+                location.replace("login.php");
+            }
+            </script>
+    
+</html>
